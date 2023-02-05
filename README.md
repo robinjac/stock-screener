@@ -1,38 +1,11 @@
-# create-svelte
+# Stock Screener
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a project to build a cool stock/asset screener with the goal of making it easier to make the right investments.
 
-## Creating a project
+## Notes
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+* Original idea was to use Polygon.io, but it only offers US stocks/etf's on the free plan
+* Tried Alpha Vantage but it, similarily to Polytgon.io only offers US assets
+* Still have to investigate yfinance api, but rumors says it's shaky (uses webscrapers etc). However, it seems to offer the biggest coverage.
+    * https://algotrading101.com/learn/yfinance-guide/
+    * https://github.com/ranaroussi/yfinance
