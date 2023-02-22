@@ -14,3 +14,4 @@ This is a project to build a cool stock/asset screener with the goal of making i
     * Blog about it https://medium.com/@kunsitu/freetrade-api-wrapper-unofficial-6dd36e65dd37
     * Github page https://github.com/situkun123/FreeTradeWrapper
 * Interesting service for exchange rates https://exchangeratesapi.io/
+* Combining AV and Polygon.io seems to be the best solution
